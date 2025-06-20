@@ -1,0 +1,13 @@
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar-nav .dropdown-toggle::after {
+    display: none;
+}
+
+body {
+    font-size: 14px; /* Adjust this value as needed */
+}

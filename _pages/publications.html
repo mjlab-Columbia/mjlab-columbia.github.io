@@ -8,45 +8,80 @@ permalink: /publications/
 
 <h1>{{page.title}}</h1>
 
-<div class="panel-group" id="accordion">
-    <div class="panel panel-default">
+<div class="accordion" id="preColumbiaAccordion">
+    <h1>Selected Publications</h1>
+    {% for publi in site.data.columbia %}
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="headingPreColumbia{{forloop.index}}">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePreColumbia{{forloop.index}}" aria-expanded="false" aria-controls="collapsePreColumbia{{forloop.index}}">
+                <a data-toggle="collapse" data-parent="#accordion"
+                   href="#collapse{{forloop.index}}"
+                   style="color: inherit;">
+                            <!-- authors -->
+                            {% assign authors = "" | split:"/" %}
+                            {% for author in publi.author %}
+                                {% assign authors = authors | push: author.family %}
+                            {% endfor %}
+                            {{ authors | array_to_sentence_string }},
 
-    {% for publi in site.data.publications %}
-        <div class="panel-heading">
-            <a data-toggle="collapse" data-parent="#accordion"
-               href="#collapse{{forloop.index}}"
-               style="color: inherit;">
-            <!-- authors -->
-            {% assign authors = "" | split:"/" %}
-            {% for author in publi.author %}
-                {% assign authors = authors | push: author.family %}
-            {% endfor %}
-            {{ authors | array_to_sentence_string }},
+                            <!-- title with link -->
+                            "{{ publi.title }}",
 
-            <!-- title with link -->
-            "{{ publi.title }}",
+                            <!-- container -->
+                            <b>{{ publi.container-title }}</b>
 
-            <!-- container -->
-            <b>{{ publi.container-title }}</b>
+                            <!-- issued date -->
+                            ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
+                </a>
+            </button>
+        </h2>
 
-            <!-- issued date -->
-            ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
+            <div id="collapsePreColumbia{{forloop.index}}" class="accordion-collapse collapse" aria-labelledby="headingPreColumbia{{forloop.index}}" data-bs-parent="#preColumbiaAccordion">
+                <div class="accordion-body">
+                    <p>{{ publi.abstract }}</p>
 
-            <!-- DOI -->
-            {% if publi.DOI %}
-                <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
-            {% endif %}
-            </a>
-        </div>
-
-        <div id="collapse{{forloop.index}}" class="panel-collapse collapse">
-            <div class="panel-body">
-                <p>{{ publi.abstract }}</p>
-
-                <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}"
-                   role="button" target="blank">Link</a>
+                    <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}" role="button" target="_blank">Link</a>
+                </div>
             </div>
         </div>
     {% endfor %}
-    </div>
+</div>
+
+<div class="accordion" id="publicationsAccordion">
+    <h1>Other Publications</h1>
+    {% for publi in site.data.precolumbia %}
+        <div class="accordion-item">
+        <h2 class="accordion-header" id="heading{{forloop.index}}">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{forloop.index}}" aria-expanded="false" aria-controls="collapse{{forloop.index}}">
+                <a data-toggle="collapse" data-parent="#accordion"
+                   href="#collapse{{forloop.index}}"
+                   style="color: inherit;">
+                            <!-- authors -->
+                            {% assign authors = "" | split:"/" %}
+                            {% for author in publi.author %}
+                                {% assign authors = authors | push: author.family %}
+                            {% endfor %}
+                            {{ authors | array_to_sentence_string }},
+
+                            <!-- title with link -->
+                            "{{ publi.title }}",
+
+                            <!-- container -->
+                            <b>{{ publi.container-title }}</b>
+
+                            <!-- issued date -->
+                            ({{ publi.issued.date-parts | jsonify | slice: 3,4 }}),
+                </a>
+            </button>
+        </h2>
+
+            <div id="collapse{{forloop.index}}" class="accordion-collapse collapse" aria-labelledby="heading{{forloop.index}}" data-bs-parent="#publicationsAccordion">
+                <div class="accordion-body">
+                    <p>{{ publi.abstract }}</p>
+
+                    <a class="btn btn-outline-primary" href="https://doi.org/{{publi.DOI}}" role="button" target="_blank">Link</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
 </div>
