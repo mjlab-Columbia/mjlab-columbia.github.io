@@ -219,7 +219,7 @@
 // Wrap a series of panels in `.panel-group` to turn them into an accordion with
 // the help of our collapse JavaScript plugin.
 
-.panel-group {
+.accordion {
   margin-bottom: $line-height-computed;
 
   // Tighten up margin so it's only between panels
@@ -232,11 +232,15 @@
     }
   }
 
-  .panel-heading {
+  .accordion-header {
     border-bottom: 0;
 
-    + .panel-collapse > .panel-body,
-    + .panel-collapse > .list-group {
+    .accordion-button {
+      font-size: 14px
+    }
+
+    + .accordion-collapse > .accordion-body,
+    + .accordion-collapse > .list-group {
       border-top: 1px solid $panel-inner-border;
     }
   }
