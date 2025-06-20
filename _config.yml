@@ -6,12 +6,14 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Research Lab
-email: your-email@domain.com
+title: Jovanovic Lab
+email: mj2794@columbia.edu
+phone: "(212)-854-4581"
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is the official website for the Jovanovic Lab at Columbia 
+  University. We're an academic lab studying post-transcriptional
+  and post-translational regulation located in the Fairchild Center
+  in Columbia University's Morningside campus.
 baseurl: ""
 url: https://mjlab-columbia.github.io
 

@@ -1,33 +1,49 @@
 <div id="footer" class="panel">
   <div class="panel-footer">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-sm-4">
-				<p>{{ site.title }}</p>
-				<img class="img-fluid" src="{{ site.baseurl }}/images/logo/lab-logo.png"
-				     style="max-width: 100px;">
-			</div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+          <p>{{ site.title }}</p>
+          <!-- <img -->
+          <!--   class="img-fluid" -->
+          <!--   src="{{ site.baseurl }}/images/logo/lab-logo.png" -->
+          <!--   style="max-width: 100px" -->
+          <!-- /> -->
+        </div>
 
-			<div class="col-sm-4">
-				<p>Links</p>
-				<ul class="list-unstyled">
-					<li><a href="https://github.com/ericdaat/research-lab-website">Github Repository</a></li>
-					<li><a href="">Link</a></li>
-					<li><a href="">Link</a></li>
-					<li><a href="">Link</a></li>
-				</ul>
-			</div>
+        <div class="col-sm-4">
+          <p>Links</p>
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://github.com/mjlab-Columbia">Github</a>
+            </li>
+            <li>
+              <a
+                href="https://scholar.google.com/citations?user=VuhAkHAAAAAJ&hl=en&oi=ao"
+                >Google Scholar</a
+              >
+            </li>
+          </ul>
+        </div>
 
-			<div class="col-sm-4">
-				<p>Contact</p>
-				<p>Some Address</p>
-			</div>
-		</div>
+        <div class="col-sm-4">
+          <p>Contact</p>
+          <p>
+            1212 Amsterdam Avenue <br />
+            New York, NY 10027 <br />
+          </p>
 
-		<div class="row mt-3">
-			<p class="text-center">Copyright, 2019</p>
-		</div>
-	</div>
+          <p>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a> <br />
+            <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <p class="text-center">Copyright, 2024</p>
+      </div>
+    </div>
   </div>
 </div>
 
