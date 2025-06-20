@@ -1,0 +1,417 @@
+[
+    {
+        "DOI": "10.1101/2023.06.05.543769",
+        "abstract": "RNA binding proteins (RBPs) play crucial roles in regulating every stage of the mRNA life cycle and mediating non-coding RNA functions. Despite their importance, the specific roles of most RBPs remain unexplored because we do not know what specific RNAs most RBPs bind. Current methods, such as crosslinking and immunoprecipitation followed by sequencing (CLIP-seq), have expanded our knowledge of RBP-RNA interactions but are generally limited by their ability to map only one RBP at a time. To address this limitation, we developed SPIDR (Split and Pool Identification of RBP targets), a massively multiplexed method to simultaneously profile global RNA binding sites of dozens to hundreds of RBPs in a single experiment. SPIDR employs split-pool barcoding coupled with antibody-bead barcoding to increase the throughput of current CLIP methods by two orders of magnitude. SPIDR reliably identifies precise, single-nucleotide RNA binding sites for diverse classes of RBPs simultaneously. Using SPIDR, we explored changes in RBP binding upon mTOR inhibition and identified that 4EBP1 acts as a dynamic RBP that selectively binds to 5{\\textquoteright}-untranslated regions of specific translationally repressed mRNAs only upon mTOR inhibition. This observation provides a potential mechanism to explain the specificity of translational regulation controlled by mTOR signaling. SPIDR has the potential to revolutionize our understanding of RNA biology and both transcriptional and post-transcriptional gene regulation by enabling rapid, de novo discovery of RNA-protein interactions at an unprecedented scale.Competing Interest StatementThe authors have declared no competing interest.",
+        "author": [
+            {
+                "family": "Wolin",
+                "given": "Erica"
+            },
+            {
+                "family": "Guo",
+                "given": "Jimmy K."
+            },
+            {
+                "family": "Blanco",
+                "given": "Mario R."
+            },
+            {
+                "family": "Perez",
+                "given": "Andrew A."
+            },
+            {
+                "family": "Goronzy",
+                "given": "Isabel N."
+            },
+            {
+                "family": "Abdou",
+                "given": "Ahmed A."
+            },
+            {
+                "family": "Gorhe",
+                "given": "Darvesh"
+            },
+            {
+                "family": "Guttman",
+                "given": "Mitchell"
+            },
+            {
+                "family": "Jovanovic",
+                "given": "Marko"
+            }
+        ],
+        "container-title": "bioRxiv",
+        "id": "wolin2023spidr",
+        "issue": "",
+        "issued": {
+            "date-parts": [
+                [
+                    "2023"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "Cold Spring Harbor Laboratory",
+        "title": "SPIDR: a highly multiplexed method for mapping RNA-protein interactions uncovers a potential mechanism for selective translational suppression upon cellular stress",
+        "type": "article",
+        "volume": ""
+    },
+    {
+        "DOI": "10.1016/j.molcel.2024.08.030",
+        "abstract": "mRNAs interact with RNA-binding proteins (RBPs) throughout their processing and maturation. While efforts have assigned RBPs to RNA substrates, less exploration has leveraged protein-protein interactions (PPIs) to study proteins in mRNA life-cycle stages. We generated an RNA-aware, RBP-centric PPI map across the mRNA life cycle in human cells by immunopurification-mass spectrometry (IP-MS) of ?100 endogenous RBPs with and without RNase, augmented by size exclusion chromatography-mass spectrometry (SEC-MS). We identify 8,742 known and 20,802 unreported interactions between 1,125 proteins and determine that 73{\\%} of the IP-MS-identified interactions are RNA regulated. Our interactome links many proteins, some with unknown functions, to specific mRNA life-cycle stages, with nearly half associated with multiple stages. We demonstrate the value of this resource by characterizing the splicing and export functions of enhancer of rudimentary homolog (ERH), and by showing that small nuclear ribonucleoprotein U5 subunit 200 (SNRNP200) interacts with stress granule proteins and binds cytoplasmic RNA differently during stress.",
+        "author": [
+            {
+                "family": "Street",
+                "given": "Lena A."
+            },
+            {
+                "family": "Rothamel",
+                "given": "Katherine L."
+            },
+            {
+                "family": "Brannan",
+                "given": "Kristopher W."
+            },
+            {
+                "family": "Jin",
+                "given": "Wenhao"
+            },
+            {
+                "family": "Bokor",
+                "given": "Benjamin J."
+            },
+            {
+                "family": "Dong",
+                "given": "Kevin"
+            },
+            {
+                "family": "Rhine",
+                "given": "Kevin"
+            },
+            {
+                "family": "Madrigal",
+                "given": "Assael"
+            },
+            {
+                "family": "Al-Azzam",
+                "given": "Norah"
+            },
+            {
+                "family": "Kim",
+                "given": "Jenny Kim"
+            },
+            {
+                "family": "Ma",
+                "given": "Yanzhe"
+            },
+            {
+                "family": "Gorhe",
+                "given": "Darvesh"
+            },
+            {
+                "family": "Abdou",
+                "given": "Ahmed"
+            },
+            {
+                "family": "Wolin",
+                "given": "Erica"
+            },
+            {
+                "family": "Mizrahi",
+                "given": "Orel"
+            },
+            {
+                "family": "Ahdout",
+                "given": "Joshua"
+            },
+            {
+                "family": "Mujumdar",
+                "given": "Mayuresh"
+            },
+            {
+                "family": "Doron-Mandel",
+                "given": "Ella"
+            },
+            {
+                "family": "Jovanovic",
+                "given": "Marko"
+            },
+            {
+                "family": "Yeo",
+                "given": "Gene W."
+            }
+        ],
+        "container-title": "Molecular Cell",
+        "id": "street2023large",
+        "issue": "19",
+        "issued": {
+            "date-parts": [
+                [
+                    "2024"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "Elsevier",
+        "title": "Large-scale map of RNA-binding protein interactomes across the mRNA life cycle",
+        "type": "article",
+        "volume": "84"
+    },
+    {
+        "DOI": "10.1074/mcp.R120.002190",
+        "abstract": "AbstractIn all cells, proteins are continuously synthesized and degraded to maintain protein homeostasis and modify gene expression levels in response to stimuli. Collectively, the processes of protein synthesis and degradation are referred to as protein turnover. At a steady state, protein turnover is constant to maintain protein homeostasis, but in dynamic responses, proteins change their rates of synthesis and degradation to adjust their proteomes to internal or external stimuli. Thus, probing the kinetics and dynamics of protein turnover lends insight into how cells regulate essential processes such as growth, differentiation, and stress response. Here, we outline historical and current approaches to measuring the kinetics of protein turnover on a proteome-wide scale in both steady-state and dynamic systems, with an emphasis on metabolic tracing using stable isotope?labeled amino acids. We highlight important considerations for designing proteome turnover experiments, key biological findings regarding the conserved principles of proteome turnover regulation, and future perspectives for both technological and biological investigation.",
+        "author": [
+            {
+                "family": "Ross",
+                "given": "Alison Barbara"
+            },
+            {
+                "family": "Langer",
+                "given": "Julian David"
+            },
+            {
+                "family": "Jovanovic",
+                "given": "Marko"
+            }
+        ],
+        "container-title": "Molecular & Cellular Proteomics",
+        "id": "ross2021proteome",
+        "issue": "",
+        "issued": {
+            "date-parts": [
+                [
+                    "2021"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "Elsevier",
+        "title": "Proteome Turnover in the Spotlight: Approaches, Applications, and Perspectives",
+        "type": "article",
+        "volume": "20"
+    },
+    {
+        "DOI": "10.1016/j.crmeth.2024.100760",
+        "abstract": "The role of protein turnover in pancreatic ductal adenocarcinoma (PDA) metastasis has not been previously investigated. We introduce dynamic stable-isotope labeling of organoids (dSILO): a dynamic SILAC derivative that combines a pulse of isotopically labeled amino acids with isobaric tandem mass-tag (TMT) labeling to measure proteome-wide protein turnover rates in organoids. We applied it to a PDA model and discovered that metastatic organoids exhibit an accelerated global proteome turnover compared to primary tumor organoids. Globally, most turnover changes are not reflected at the level of protein abundance. Interestingly, the group of proteins that show the highest turnover increase in metastatic PDA compared to tumor is involved in mitochondrial respiration. This indicates that metastatic PDA may adopt alternative respiratory chain functionality that is controlled by the rate at which proteins are turned over. Collectively, our analysis of proteome turnover in PDA organoids offers insights into the mechanisms underlying PDA metastasis.",
+        "author": [
+            {
+                "family": "Ross",
+                "given": "Alison B."
+            },
+            {
+                "family": "Gorhe",
+                "given": "Darvesh"
+            },
+            {
+                "family": "Kim",
+                "given": "Jenny Kim"
+            },
+            {
+                "family": "Hodapp",
+                "given": "Stefanie"
+            },
+            {
+                "family": "DeVine",
+                "given": "Lela"
+            },
+            {
+                "family": "Chan",
+                "given": "Karina M."
+            },
+            {
+                "family": "Chio",
+                "given": "Iok In Christine"
+            },
+            {
+                "family": "Jovanovic",
+                "given": "Marko"
+            },
+            {
+                "family": "Ayres Pereira",
+                "given": "Marina"
+            }
+        ],
+        "container-title": "Cell Reports Methods",
+        "id": "ross2024systematic",
+        "issue": "5",
+        "issued": {
+            "date-parts": [
+                [
+                    "2024"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "Elsevier",
+        "title": "Systematic analysis of proteome turnover in an organoid model of pancreatic cancer by dSILO",
+        "type": "article",
+        "volume": "4"
+    },
+    {
+        "DOI": "10.1126/science.adq0876",
+        "abstract": "Defense-associated reverse transcriptase (DRT) systems perform DNA synthesis to protect bacteria against viral infection, but the identities and functions of their DNA products remain largely unknown. We show that DRT2 systems encode an unprecedented immune pathway that involves de novo gene synthesis through rolling circle reverse transcription of a noncoding RNA (ncRNA). Programmed template jumping on the ncRNA generates a concatemeric cDNA, which becomes double-stranded upon viral infection. This DNA product constitutes a protein-coding, nearly endless open reading frame (neo) gene whose expression leads to potent cell growth arrest, restricting the viral infection. Our work highlights an elegant expansion of genome coding potential through RNA-templated gene creation and challenges conventional paradigms of genetic information encoded along the one-dimensional axis of genomic DNA. The central dogma of molecular biology states that genetic information flows from DNA and RNA to protein, with reverse transcription converting RNA to DNA. In the pursuit of understanding how bacteria defend themselves from viral infection, two groups of investigators have found alternative pathways to making genes from RNA that did not previously encode proteins (see the Perspective by Osterman and Sorek). Tang et al. discovered a mechanism whereby a reverse transcriptase uses RNA templates to synthesize de novo genes, leading to the expression of repetitive, nearly endless open reading frame (Neo) proteins that halt cell growth and restrict viral spread. The cryptic encoding of Neo subverts the conventional flow of genetic information and highlights the potential for hidden genes to be unearthed in other biological contexts. Wilkinson et al. found that some bacteria use reverse transcription to copy RNA into end-to-end repeats of DNA. The repetitive DNA reconstitutes a gene and can be transcribed into a repetitive RNA that encodes a toxic protein. Bacteria use this gene-synthesis ability to produce hypertoxic proteins that can protect against viral infection. \u2014Di Jiang",
+        "author": [
+            {
+                "family": "Stephen Tang ",
+                "given": ""
+            },
+            {
+                "family": "Valentin Conte ",
+                "given": ""
+            },
+            {
+                "family": "Dennis J. Zhang ",
+                "given": ""
+            },
+            {
+                "family": "Rimant\u0117 \u017dedaveinyt\u0117 ",
+                "given": ""
+            },
+            {
+                "family": "George D. Lampe ",
+                "given": ""
+            },
+            {
+                "family": "Tanner Wiegand ",
+                "given": ""
+            },
+            {
+                "family": "Lauren C. Tang ",
+                "given": ""
+            },
+            {
+                "family": "Megan Wang ",
+                "given": ""
+            },
+            {
+                "family": "Matt W. G. Walker ",
+                "given": ""
+            },
+            {
+                "family": "Jerrin Thomas George ",
+                "given": ""
+            },
+            {
+                "family": "Luke E. Berchowitz ",
+                "given": ""
+            },
+            {
+                "family": "Marko Jovanovic ",
+                "given": ""
+            },
+            {
+                "family": "Samuel H. Sternberg ",
+                "given": ""
+            }
+        ],
+        "container-title": "Science",
+        "id": "doi:10.1126/science.adq0876",
+        "issue": "6717",
+        "issued": {
+            "date-parts": [
+                [
+                    "2024"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "",
+        "title": "De novo gene synthesis by an antiviral reverse transcriptase",
+        "type": "article",
+        "volume": "386"
+    },
+    {
+        "DOI": "https://doi.org/10.1016/j.xpro.2023.102293",
+        "abstract": "The Size-Exclusion Chromatography Analysis Toolkit (SECAT) elucidates protein complex dynamics using co-fractionated bottom-up mass spectrometry (CF-MS) data. Here, we present a protocol for the network-centric analysis and interpretation of CF-MS profiles using SECAT. We describe the technical steps for preprocessing, scoring, semi-supervised machine learning, and quantification, including common pitfalls and their solutions. We further provide guidance for data export, visualization, and the interpretation of SECAT results to discover dysregulated proteins and interactions, supporting new hypotheses and biological insights. For complete details on the use and execution of this protocol, please refer to Rosenberger et\u00a0al. (2020).1",
+        "author": [
+            {
+                "family": "Benjamin J. Bokor",
+                "given": ""
+            },
+            {
+                "family": "Darvesh Gorhe",
+                "given": ""
+            },
+            {
+                "family": "Marko Jovanovic",
+                "given": ""
+            },
+            {
+                "family": "George Rosenberger",
+                "given": ""
+            }
+        ],
+        "container-title": "STAR Protocols",
+        "id": "bokor2023network",
+        "issue": "2",
+        "issued": {
+            "date-parts": [
+                [
+                    "2023"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "",
+        "title": "Network-centric analysis of co-fractionated protein complex profiles using SECAT",
+        "type": "article",
+        "volume": "4"
+    },
+    {
+        "DOI": "10.1038/s41467-025-56303-0",
+        "abstract": "A protein\u2019s molecular interactions and post-translational modifications (PTMs), such as phosphorylation, can be co-dependent and reciprocally co-regulate each other. Although this interplay is central for many biological processes, a systematic method to simultaneously study assembly states and PTMs from the same sample is critically missing. Here, we introduce SEC-MX (Size Exclusion Chromatography fractions MultipleXed), a global quantitative method combining Size Exclusion Chromatography and PTM-enrichment for simultaneous characterization of PTMs and assembly states. SEC-MX enhances throughput, allows phosphopeptide enrichment, and facilitates quantitative differential comparisons between biological conditions. Conducting SEC-MX on HEK293 and HCT116 cells, we generate a proof-of-concept dataset, mapping thousands of phosphopeptides and their assembly states. Our analysis reveals intricate relationships between phosphorylation events and assembly states and generates testable hypotheses for follow-up studies. Overall, we establish SEC-MX as a valuable tool for exploring protein functions and regulation beyond abundance changes.",
+        "author": [
+            {
+                "family": "Doron-Mandel",
+                "given": "Ella "
+            },
+            {
+                "family": " Bokor",
+                "given": "Benjamin J. "
+            },
+            {
+                "family": " Ma",
+                "given": "Yanzhe "
+            },
+            {
+                "family": " Street",
+                "given": "Lena A. "
+            },
+            {
+                "family": " Tang",
+                "given": "Lauren C. "
+            },
+            {
+                "family": " Abdou",
+                "given": "Ahmed A. "
+            },
+            {
+                "family": " Shah",
+                "given": "Neel H. "
+            },
+            {
+                "family": " Rosenberger",
+                "given": "George "
+            },
+            {
+                "family": " Jovanovic",
+                "given": "Marko"
+            }
+        ],
+        "container-title": "Nature Communications",
+        "id": "Doron-Mandel2025SEC-MX:",
+        "issue": "",
+        "issued": {
+            "date-parts": [
+                [
+                    "2025"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "",
+        "title": "SEC-MX: an approach to systematically study the interplay between protein assembly states and phosphorylation",
+        "type": "article",
+        "volume": "16"
+    }
+]
