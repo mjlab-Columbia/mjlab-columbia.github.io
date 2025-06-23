@@ -1,0 +1,103 @@
+---
+title: "Resources"
+layout: default
+excerpt: "RT2 Lab -- Resources"
+sitemap: false
+permalink: /resources/
+---
+
+<h1>{{page.title}}</h1>
+
+<div class="row">
+  <div class="col-md-12">
+    <p>Here you can find protocols, datasets, and other resources developed by our lab.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h2>Protocols</h2>
+    <div class="accordion" id="protocolsAccordion">
+      
+      {% for protocol in site.data.resources.protocols %}
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingProtocol{{forloop.index}}">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProtocol{{forloop.index}}" aria-expanded="false" aria-controls="collapseProtocol{{forloop.index}}">
+            {{ protocol.title }}
+          </button>
+        </h2>
+        <div id="collapseProtocol{{forloop.index}}" class="accordion-collapse collapse" aria-labelledby="headingProtocol{{forloop.index}}" data-bs-parent="#protocolsAccordion">
+          <div class="accordion-body">
+            <p>{{ protocol.description }}</p>
+            <a class="btn btn-outline-primary" href="{{ protocol.download_url }}" role="button" target="_blank">{{ protocol.download_text }}</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+      {% if site.data.resources.protocols.size == 0 %}
+      <p class="text-muted"><em>Protocols will be added here as they become available.</em></p>
+      {% endif %}
+
+    </div>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-md-12">
+    <h2>Software & Tools</h2>
+    <div class="accordion" id="softwareAccordion">
+      
+      {% for software in site.data.resources.software %}
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSoftware{{forloop.index}}">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSoftware{{forloop.index}}" aria-expanded="false" aria-controls="collapseSoftware{{forloop.index}}">
+            {{ software.title }}
+          </button>
+        </h2>
+        <div id="collapseSoftware{{forloop.index}}" class="accordion-collapse collapse" aria-labelledby="headingSoftware{{forloop.index}}" data-bs-parent="#softwareAccordion">
+          <div class="accordion-body">
+            <p>{{ software.description }}</p>
+            <a class="btn btn-outline-primary" href="{{ software.download_url }}" role="button" target="_blank">{{ software.download_text }}</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+      {% if site.data.resources.software.size == 0 %}
+      <p class="text-muted"><em>Software and computational tools will be added here as they become available.</em></p>
+      {% endif %}
+
+    </div>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-md-12">
+    <h2>Datasets</h2>
+    <div class="accordion" id="datasetsAccordion">
+      
+      {% for dataset in site.data.resources.datasets %}
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingDataset{{forloop.index}}">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDataset{{forloop.index}}" aria-expanded="false" aria-controls="collapseDataset{{forloop.index}}">
+            {{ dataset.title }}
+          </button>
+        </h2>
+        <div id="collapseDataset{{forloop.index}}" class="accordion-collapse collapse" aria-labelledby="headingDataset{{forloop.index}}" data-bs-parent="#datasetsAccordion">
+          <div class="accordion-body">
+            <p>{{ dataset.description }}</p>
+            <a class="btn btn-outline-primary" href="{{ dataset.download_url }}" role="button" target="_blank">{{ dataset.download_text }}</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+      {% if site.data.resources.datasets.size == 0 %}
+      <p class="text-muted"><em>Datasets will be added here as they become available.</em></p>
+      {% endif %}
+
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,21 @@
+protocols:
+  - title: "SPIDR Protocol"
+    description: "SPIDR is a multiplexed method to generate RBP-RNA binding maps. An up-to-date protocol can be downloaded at the link below."
+    download_url: "https://spidr-k562-data.s3.us-east-1.amazonaws.com/20250120_SPIDR_protocol-+NEW+i+think+(1).pdf"
+    download_text: "Download SPIDR Protocol"
+
+software:
+  - title: "SPADE - A Peak Centric Analysis Tool for SEC-MS Data"
+    description: "SPADE is a Python tool for analyzing SEC-MS (Size Exclusion Chromatography coupled with Mass Spectrometry) data to evaluate protein assembly state dynamics across multiple samples."
+    download_url: https://github.com/mjlab-Columbia/SPADE
+    download_text: "View SPADE on GitHub"
+  - title: "SPIDR Processing Pipeline"
+    description: "This is a pipeline for processing SPIDR sequencing data. The pipeline turns SPIDR fastq files into 1 BAM per RBP in the experiment along with some supplementary bam files for reads that did not meet cutoffs. The README on GitHub has more information."
+    download_url: "https://github.com/mjlab-Columbia/spidr"
+    download_text: "View SPIDR on GitHub"
+
+datasets:
+  - title: "SPIDR Supplemental Data"
+    description: "The link below contains supplemental tables referenced in the main SPIDR manuscript."
+    download_url: "10.17632/2f8czsk233.1"
+    download_text: "Access SPIDR Supplemental Data"
