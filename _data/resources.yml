@@ -5,11 +5,11 @@ protocols:
     download_text: "Download SPIDR Protocol"
 
 software:
-  - title: "SPADE - A Peak Centric Analysis Tool for SEC-MS Data"
-    description: "SPADE is a Python tool for analyzing SEC-MS (Size Exclusion Chromatography coupled with Mass Spectrometry) data to evaluate protein assembly state dynamics across multiple samples."
-    download_url: https://github.com/mjlab-Columbia/SPADE
+  - title: "SPADE-PTM - A Peak Centric Analysis Tool for SEC-MS Data"
+    description: "SPADE is a Python tool for analyzing SEC-MS (Size Exclusion Chromatography coupled with Mass Spectrometry) data to evaluate protein assembly state dynamics across multiple samples. This is the version used for the SEC-MX paper."
+    download_url: https://github.com/mjlab-Columbia/SPADE-PTM
     download_text: "View SPADE on GitHub"
-  - title: "SPIDR Processing Pipeline"
+  - title: "Up-to-date SPIDR Processing Pipeline"
     description: "This is a pipeline for processing SPIDR sequencing data. The pipeline turns SPIDR fastq files into 1 BAM per RBP in the experiment along with some supplementary bam files for reads that did not meet cutoffs. The README on GitHub has more information."
     download_url: "https://github.com/mjlab-Columbia/spidr"
     download_text: "View SPIDR on GitHub"
