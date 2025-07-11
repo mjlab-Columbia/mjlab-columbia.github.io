@@ -3,7 +3,7 @@ layout: member
 category: current
 subcategory: technician
 title: Bojana Stekovic
-image: researcher.png
+image: bojana-stekovic-150-by-150.jpg
 role: Technician
 permalink: "team/bojana-stekovic"
 social:
