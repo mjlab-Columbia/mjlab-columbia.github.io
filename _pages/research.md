@@ -56,5 +56,7 @@ To enable dynamic PPI measurements at scale, we developed SEC-MX, a mass spectro
 ![SEC-MX]({{ site.url }}{{ site.baseurl }}/images/other/protein_centric_hypothetical_wide_20_percent.png)
 </div>
 
-<!-- [put mRNA life cycle figure here] -->
+<div style="text-align: center">
+![RBP mRNA Lifecycle]({{ site.url }}{{ site.baseurl }}/images/other/RBP_paper_fig_10_percent.png)
+</div>
 
