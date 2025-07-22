@@ -1,64 +1,92 @@
 [
     {
-        "DOI": "10.1101/2023.06.05.543769",
-        "abstract": "RNA binding proteins (RBPs) play crucial roles in regulating every stage of the mRNA life cycle and mediating non-coding RNA functions. Despite their importance, the specific roles of most RBPs remain unexplored because we do not know what specific RNAs most RBPs bind. Current methods, such as crosslinking and immunoprecipitation followed by sequencing (CLIP-seq), have expanded our knowledge of RBP-RNA interactions but are generally limited by their ability to map only one RBP at a time. To address this limitation, we developed SPIDR (Split and Pool Identification of RBP targets), a massively multiplexed method to simultaneously profile global RNA binding sites of dozens to hundreds of RBPs in a single experiment. SPIDR employs split-pool barcoding coupled with antibody-bead barcoding to increase the throughput of current CLIP methods by two orders of magnitude. SPIDR reliably identifies precise, single-nucleotide RNA binding sites for diverse classes of RBPs simultaneously. Using SPIDR, we explored changes in RBP binding upon mTOR inhibition and identified that 4EBP1 acts as a dynamic RBP that selectively binds to 5{\\textquoteright}-untranslated regions of specific translationally repressed mRNAs only upon mTOR inhibition. This observation provides a potential mechanism to explain the specificity of translational regulation controlled by mTOR signaling. SPIDR has the potential to revolutionize our understanding of RNA biology and both transcriptional and post-transcriptional gene regulation by enabling rapid, de novo discovery of RNA-protein interactions at an unprecedented scale.Competing Interest StatementThe authors have declared no competing interest.",
+        "DOI": "https://doi.org/10.1016/j.cell.2025.06.042",
+        "abstract": "RNA-binding proteins (RBPs) regulate all stages of the mRNA life cycle, yet current methods generally map RNA targets of RBPs one protein at a time. To overcome this limitation, we developed SPIDR (split-and-pool identification of RBP targets), a highly multiplexed split-pool method that profiles the binding sites of dozens of RBPs simultaneously. SPIDR identifies precise, single-nucleotide binding sites for diverse classes of RBPs. Using SPIDR, we uncovered an interaction between LARP1 and the 18S rRNA and resolved this interaction to the mRNA entry channel of the 40S ribosome using cryoelectron microscopy (cryo-EM), providing a potential mechanistic explanation for LARP1\u2019s role in translational suppression. We explored changes in RBP binding upon mTOR inhibition and identified that 4EBP1 preferentially associates with translationally repressed mRNAs upon mTOR inhibition. SPIDR has the potential to significantly advance our understanding of RNA biology by enabling rapid, de novo discovery of RNA-protein interactions at an unprecedented scale.",
         "author": [
             {
-                "family": "Wolin",
-                "given": "Erica"
+                "family": "Erica Wolin",
+                "given": ""
             },
             {
-                "family": "Guo",
-                "given": "Jimmy K."
+                "family": "Jimmy K. Guo",
+                "given": ""
             },
             {
-                "family": "Blanco",
-                "given": "Mario R."
+                "family": "Mario R. Blanco",
+                "given": ""
             },
             {
-                "family": "Perez",
-                "given": "Andrew A."
+                "family": "Isabel N. Goronzy",
+                "given": ""
             },
             {
-                "family": "Goronzy",
-                "given": "Isabel N."
+                "family": "Darvesh Gorhe",
+                "given": ""
             },
             {
-                "family": "Abdou",
-                "given": "Ahmed A."
+                "family": "Wenzhao Dong",
+                "given": ""
             },
             {
-                "family": "Gorhe",
-                "given": "Darvesh"
+                "family": "Andrew A. Perez",
+                "given": ""
             },
             {
-                "family": "Guttman",
-                "given": "Mitchell"
+                "family": "Abdurrahman Keskin",
+                "given": ""
             },
             {
-                "family": "Jovanovic",
-                "given": "Marko"
+                "family": "Elizabeth Valenzuela",
+                "given": ""
+            },
+            {
+                "family": "Ahmed A. Abdou",
+                "given": ""
+            },
+            {
+                "family": "Carl R. Urbinati",
+                "given": ""
+            },
+            {
+                "family": "Ross Kaufhold",
+                "given": ""
+            },
+            {
+                "family": "H. Tomas Rube",
+                "given": ""
+            },
+            {
+                "family": "Jailson {Brito Querido}",
+                "given": ""
+            },
+            {
+                "family": "Mitchell Guttman",
+                "given": ""
+            },
+            {
+                "family": "Marko Jovanovic",
+                "given": ""
             }
         ],
-        "container-title": "bioRxiv",
-        "id": "wolin2023spidr",
+        "container-title": "Cell",
+        "id": "WOLIN2025",
         "issue": "",
         "issued": {
             "date-parts": [
                 [
-                    "2023"
+                    "2025"
                 ]
             ]
         },
         "page": "",
-        "source": "Cold Spring Harbor Laboratory",
-        "title": "SPIDR: a highly multiplexed method for mapping RNA-protein interactions uncovers a potential mechanism for selective translational suppression upon cellular stress",
+        "source": "",
+        "title": "SPIDR enables multiplexed mapping of RNA-protein interactions and uncovers a mechanism for selective translational suppression upon cell stress",
         "type": "article",
         "volume": ""
     },
     {
         "DOI": "10.1016/j.molcel.2024.08.030",
-        "abstract": "mRNAs interact with RNA-binding proteins (RBPs) throughout their processing and maturation. While efforts have assigned RBPs to RNA substrates, less exploration has leveraged protein-protein interactions (PPIs) to study proteins in mRNA life-cycle stages. We generated an RNA-aware, RBP-centric PPI map across the mRNA life cycle in human cells by immunopurification-mass spectrometry (IP-MS) of ?100 endogenous RBPs with and without RNase, augmented by size exclusion chromatography-mass spectrometry (SEC-MS). We identify 8,742 known and 20,802 unreported interactions between 1,125 proteins and determine that 73{\\%} of the IP-MS-identified interactions are RNA regulated. Our interactome links many proteins, some with unknown functions, to specific mRNA life-cycle stages, with nearly half associated with multiple stages. We demonstrate the value of this resource by characterizing the splicing and export functions of enhancer of rudimentary homolog (ERH), and by showing that small nuclear ribonucleoprotein U5 subunit 200 (SNRNP200) interacts with stress granule proteins and binds cytoplasmic RNA differently during stress.",
+        "abstract": "mRNAs interact with RNA-binding proteins (RBPs) throughout their processing and maturation. While efforts have assigned RBPs to RNA substrates, less exploration has leveraged protein-protein interactions (PPIs) to study proteins in mRNA life-cycle stages. We generated an RNA-aware, RBP-centric PPI map across the mRNA life cycle in human cells by immunopurification-mass spectrometry (IP-MS) of ?100 endogenous RBPs with and without RNase, augmented by size exclusion chromatography-mass spectrometry (SEC-MS). We identify 8,742 known and 20,802 unreported interactions between 1,125 proteins and determine that 73% of the IP-MS-identified interactions are RNA regulated. Our interactome links many proteins, some with unknown functions, to specific mRNA life-cycle stages, with nearly half associated with multiple stages. We demonstrate the value of this resource by characterizing the splicing and export functions of enhancer of rudimentary homolog (ERH), and by showing that small nuclear ribonucleoprotein U5 subunit 200 (SNRNP200) interacts with stress granule proteins and binds cytoplasmic RNA differently during stress.",
         "author": [
             {
                 "family": "Street",
@@ -413,5 +441,235 @@
         "title": "SEC-MX: an approach to systematically study the interplay between protein assembly states and phosphorylation",
         "type": "article",
         "volume": "16"
+    },
+    {
+        "DOI": "https://doi.org/10.1016/j.molcel.2024.08.010",
+        "abstract": "Summary\nRNA interactome studies have revealed that hundreds of zinc-finger proteins (ZFPs) are candidate RNA-binding proteins (RBPs), yet their RNA substrates and functional significance remain largely uncharacterized. Here, we present a systematic multi-omics analysis of the DNA- and RNA-binding targets and regulatory roles of more than 100 ZFPs representing 37 zinc-finger families. We show that multiple ZFPs are previously unknown regulators of RNA splicing, alternative polyadenylation, stability, or translation. The examined ZFPs show widespread sequence-specific RNA binding and preferentially bind proximal to transcription start sites. Additionally, several ZFPs associate with their targets at both the DNA and RNA levels. We highlight ZNF277, a C2H2 ZFP that binds thousands of RNA targets and acts as a multi-functional RBP. We also show that ZNF473 is a DNA/RNA-associated protein that regulates the expression and splicing of cell cycle genes. Our results reveal diverse roles for ZFPs in transcriptional and post-transcriptional gene regulation.",
+        "author": [
+            {
+                "family": "Maya L. Gosztyla",
+                "given": ""
+            },
+            {
+                "family": "Lijun Zhan",
+                "given": ""
+            },
+            {
+                "family": "Sara Olson",
+                "given": ""
+            },
+            {
+                "family": "Xintao Wei",
+                "given": ""
+            },
+            {
+                "family": "Jack Naritomi",
+                "given": ""
+            },
+            {
+                "family": "Grady Nguyen",
+                "given": ""
+            },
+            {
+                "family": "Lena Street",
+                "given": ""
+            },
+            {
+                "family": "Grant A. Goda",
+                "given": ""
+            },
+            {
+                "family": "Francisco F. Cavazos",
+                "given": ""
+            },
+            {
+                "family": "Jonathan C. Schmok",
+                "given": ""
+            },
+            {
+                "family": "Manya Jain",
+                "given": ""
+            },
+            {
+                "family": "Easin {Uddin Syed}",
+                "given": ""
+            },
+            {
+                "family": "Eunjeong Kwon",
+                "given": ""
+            },
+            {
+                "family": "Wenhao Jin",
+                "given": ""
+            },
+            {
+                "family": "Eric Kofman",
+                "given": ""
+            },
+            {
+                "family": "Alexandra T. Tankka",
+                "given": ""
+            },
+            {
+                "family": "Allison Li",
+                "given": ""
+            },
+            {
+                "family": "Valerie Gonzalez",
+                "given": ""
+            },
+            {
+                "family": "Eric L\u00e9cuyer",
+                "given": ""
+            },
+            {
+                "family": "Daniel Dominguez",
+                "given": ""
+            },
+            {
+                "family": "Marko Jovanovic",
+                "given": ""
+            },
+            {
+                "family": "Brenton R. Graveley",
+                "given": ""
+            },
+            {
+                "family": "Gene W. Yeo",
+                "given": ""
+            }
+        ],
+        "container-title": "Molecular Cell",
+        "id": "GOSZTYLA20243826",
+        "issue": "19",
+        "issued": {
+            "date-parts": [
+                [
+                    "2024"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "",
+        "title": "Integrated multi-omics analysis of zinc-finger proteins uncovers roles in RNA regulation",
+        "type": "article",
+        "volume": "84"
+    },
+    {
+        "DOI": "https://doi.org/10.1016/j.neuron.2024.10.007",
+        "abstract": "Summary\nAmyotrophic lateral sclerosis (ALS) is linked to the reduction of certain nucleoporins in neurons. Increased nuclear localization of charged multivesicular body protein 7 (CHMP7), a protein involved in nuclear pore surveillance, has been identified as a key factor damaging nuclear pores and disrupting transport. Using CRISPR-based microRaft, followed by gRNA identification (CRaft-ID), we discovered 55 RNA-binding proteins (RBPs) that influence CHMP7 localization, including SmD1, a survival of motor neuron (SMN) complex component. Immunoprecipitation-mass spectrometry (IP-MS) and enhanced crosslinking and immunoprecipitation (CLIP) analyses revealed CHMP7's interactions with SmD1, small nuclear RNAs, and splicing factor mRNAs in motor neurons (MNs). ALS induced pluripotent stem cell (iPSC)-MNs show reduced SmD1 expression, and inhibiting SmD1/SMN complex increased CHMP7 nuclear localization. Crucially, overexpressing SmD1 in ALS iPSC-MNs restored CHMP7's cytoplasmic localization and corrected STMN2 splicing. Our findings suggest that early ALS pathogenesis is driven by SMN complex dysregulation.",
+        "author": [
+            {
+                "family": "Norah Al-Azzam",
+                "given": ""
+            },
+            {
+                "family": "Jenny H. To",
+                "given": ""
+            },
+            {
+                "family": "Vaishali Gautam",
+                "given": ""
+            },
+            {
+                "family": "Lena A. Street",
+                "given": ""
+            },
+            {
+                "family": "Chloe B. Nguyen",
+                "given": ""
+            },
+            {
+                "family": "Jack T. Naritomi",
+                "given": ""
+            },
+            {
+                "family": "Dylan C. Lam",
+                "given": ""
+            },
+            {
+                "family": "Assael A. Madrigal",
+                "given": ""
+            },
+            {
+                "family": "Benjamin Lee",
+                "given": ""
+            },
+            {
+                "family": "Wenhao Jin",
+                "given": ""
+            },
+            {
+                "family": "Anthony Avina",
+                "given": ""
+            },
+            {
+                "family": "Orel Mizrahi",
+                "given": ""
+            },
+            {
+                "family": "Jasmine R. Mueller",
+                "given": ""
+            },
+            {
+                "family": "Willard Ford",
+                "given": ""
+            },
+            {
+                "family": "Cara R. Schiavon",
+                "given": ""
+            },
+            {
+                "family": "Elena Rebollo",
+                "given": ""
+            },
+            {
+                "family": "Anthony Q. Vu",
+                "given": ""
+            },
+            {
+                "family": "Steven M. Blue",
+                "given": ""
+            },
+            {
+                "family": "Yashwin L. Madakamutil",
+                "given": ""
+            },
+            {
+                "family": "Uri Manor",
+                "given": ""
+            },
+            {
+                "family": "Jeffrey D. Rothstein",
+                "given": ""
+            },
+            {
+                "family": "Alyssa N. Coyne",
+                "given": ""
+            },
+            {
+                "family": "Marko Jovanovic",
+                "given": ""
+            },
+            {
+                "family": "Gene W. Yeo",
+                "given": ""
+            }
+        ],
+        "container-title": "Neuron",
+        "id": "ALAZZAM20244033",
+        "issue": "24",
+        "issued": {
+            "date-parts": [
+                [
+                    "2024"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "",
+        "title": "Inhibition of RNA splicing triggers CHMP7 nuclear entry, impacting TDP-43 function and leading to the onset of ALS cellular phenotypes",
+        "type": "article",
+        "volume": "112"
     }
 ]
