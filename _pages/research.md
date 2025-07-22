@@ -28,7 +28,7 @@ We also explore how transcriptional and translational regulation interact to sha
 Building on these findings, we are now applying similar principles to multicellular systems. We have collected a time-course dataset of embryonic stem cell (ESC) differentiation, with matched measurements of RNA levels, translation rates, and protein abundances. This rich dataset allows us to dissect how regulation at the 5′ and 3′ untranslated regions (UTRs) influence translation and protein output. 
 
 <div style="text-align: center">
-![ESC Differentiation]({{ site.url }}{{ site.baseurl }}/images/other/fullDifferentiation_w_sampleCollection_25_percent.png)
+![ESC Differentiation]({{ site.url }}{{ site.baseurl }}/images/other/fullDifferentiation_w_sampleCollection_15_percent.png)
 </div>
 
 
@@ -50,13 +50,15 @@ Using SPIDR, we have begun to uncover the dynamic and combinatorial nature of pr
 ## Protein-Protein Interactions
 Our lab is developing and applying innovative methods to study the dynamic protein-protein interaction (PPI) networks that regulate RNA-binding protein (RBP) function throughout the RNA life cycle. RBPs work together in diverse ribonucleoprotein complexes (RNPs), which continually rearrange during RNA processing, localization, translation, and decay. In collaboration with Gene Yeo’s lab, we constructed an RNA-aware, RBP-centric PPI map across these stages using immunoprecipitation-mass spectrometry (IP-MS) of ~100 endogenous RBPs, with and without RNA digestion. This large-scale study revealed thousands of RNA-dependent and -independent interactions among over 1,100 proteins and highlighted hub proteins like ERH and SNRNP200 that play multifaceted roles across subcellular compartments and stress conditions. These results provide a valuable resource for understanding the modular organization and functional transitions of RNA-regulatory networks.
 
-To enable dynamic PPI measurements at scale, we developed SEC-MX, a mass spectrometry-based method that combines size exclusion chromatography (SEC) with tandem mass tag (TMT) multiplexing. SEC-MX reduces the number of required LC-MS/MS runs by tenfold while maintaining resolution and sensitivity, making it practical to study PPI changes over time or between conditions. SEC-MX also supports efficient enrichment of post-translational modifications (PTMs), such as phosphorylation, allowing us to examine how PTMs influence protein complex assembly. Using this approach, we found that most cellular proteins exist in multiple assembly states and that phosphorylation is often specific to certain assemblies. These data offer mechanistic hypotheses about PTM-regulated interactions.
-
-<div style="text-align: center">
-![SEC-MX]({{ site.url }}{{ site.baseurl }}/images/other/protein_centric_hypothetical_wide_20_percent.png)
-</div>
-
 <div style="text-align: center">
 ![RBP mRNA Lifecycle]({{ site.url }}{{ site.baseurl }}/images/other/RBP_paper_fig_10_percent.png)
 </div>
+
+
+To enable dynamic PPI measurements at scale, we developed SEC-MX, a mass spectrometry-based method that combines size exclusion chromatography (SEC) with tandem mass tag (TMT) multiplexing. SEC-MX reduces the number of required LC-MS/MS runs by tenfold while maintaining resolution and sensitivity, making it practical to study PPI changes over time or between conditions. SEC-MX also supports efficient enrichment of post-translational modifications (PTMs), such as phosphorylation, allowing us to examine how PTMs influence protein complex assembly. Using this approach, we found that most cellular proteins exist in multiple assembly states and that phosphorylation is often specific to certain assemblies. These data offer mechanistic hypotheses about PTM-regulated interactions.
+
+<div style="text-align: center">
+![SEC-MX]({{ site.url }}{{ site.baseurl }}/images/other/protein_centric_hypothetical_wide_15_percent.png)
+</div>
+
 
