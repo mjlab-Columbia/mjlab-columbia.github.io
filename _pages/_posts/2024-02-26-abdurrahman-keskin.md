@@ -1,10 +1,10 @@
 ---
 layout: member
-category: alumni
-subcategory: student
+category: current
+subcategory: postdoc
 title: Abdurrahman Keskin
 image: abdurrahman-keskin-150-by-150.jpg
-role: PhD Student
+role: Post-doctoral Researcher
 permalink: "team/abdurrahman-kesin"
 social:
   linkedin: https://www.linkedin.com/in/abdurrahman-keskin-a479b7168/
