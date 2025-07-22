@@ -64,7 +64,7 @@ permalink: /alumni/
 
 <!-- Graduates -->
 
-<h2><a id="technician"></a>Technicians</h2>
+<h2><a id="technician"></a>Research Assistants</h2>
 {% assign members = site.posts | where: 'category', 'alumni' | where: 'subcategory', 'technician' | sort: 'date' %} 
 {% for member in members %}
 <div class="card team-member-card">
@@ -89,11 +89,88 @@ permalink: /alumni/
 </div>
 {% endfor %}
 
-<!-- Undergraduates -->
-<h2><a id="undergraduate"></a>Other Alumni</h2>
-{% assign members = site.posts | where: 'category', 'alumni' | where: 'subcategory', 'other' | sort: 'date' %} 
+<h2><a id="research-scientist"></a>Research Scientists</h2>
+{% assign members = site.posts | where: 'category', 'alumni' | where: 'subcategory', 'research-scientist' | sort: 'date' %} 
 {% for member in members %}
-<div class="row mt-2">
-    <a href="{{member.url}}">{{member.title}}</a>
+<div class="card team-member-card">
+  <div class="row mt-3">
+    <div class="col-md-2">
+      <a href="{{member.url}}">
+        <img
+          src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+          class="card-img img-responsive img-thumbnail"
+          style="max-width: 100px"
+        />
+      </a>
+    </div>
+    <div class="col-md-10">
+      <div class="card-body">
+        <h4 class="card-title">{{ member.title }}</h4>
+        <p class="card-text">{{ member.role }}</p>
+      </div>
+    </div>
+  </div>
 </div>
 {% endfor %}
+
+<!-- Master's Students -->
+<div class="card team-member-card mt-4">
+  <div class="card-body">
+    <h2 class="card-title">Master's Students</h2>
+    <ul>
+      <li>Cristina Ojeda (University of Maastricht, Maastricht, Netherlands)</li>
+      <li>Tianhao Zhao (Columbia University)</li>
+      <li>Yuanlong Shuai (Columbia University)</li>
+      <li>Matt Hagood (Columbia University)</li>
+      <li>Samantha Sabah (Columbia University)</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Undergraduates -->
+<div class="card team-member-card mt-4">
+  <div class="card-body">
+    <h2 class="card-title">Undergraduates</h2>
+    <ul>
+      <li>Lance Nino (Columbia University)</li>
+      <li>Esin Gogus (Columbia University)</li>
+      <li>Jazlynn Park (Columbia University)</li>
+      <li>William DeNight (Columbia University)</li>
+      <li>Ariana Carranza (Barnard College)</li>
+      <li>Justin Chen (Columbia University)</li>
+      <li>Alexandria Yao (Columbia University)</li>
+      <li>Bethany Schwartz (Columbia University)</li>
+      <li>Jesse Joel DeJesus (Columbia University)</li>
+      <li>Bharat Srirangam (Columbia University)</li>
+      <li>Almudena De Gregorio (Universidad Francisco de Vitoria, Madrid, Spain)</li>
+      <li>Belen Garcia (Universidad Francisco de Vitoria, Madrid, Spain)</li>
+      <li>Beatriz Perez Calero (Universidad Francisco de Vitoria, Madrid, Spain)</li>
+      <li>Lucia Parraga Ruiz (Universidad Francisco de Vitoria, Madrid, Spain)</li>
+      <li>Maria Fernanda Martinez Stolik (Universidad Francisco de Vitoria, Madrid, Spain)</li>
+      <li>Clemente Segarra (Universidad Francisco de Vitoria, Madrid, Spain)</li>
+      <li>Henry Dwaah (University of Richmond, Richmond, USA)</li>
+    </ul>
+  </div>
+</div>
+
+<!-- High School Students -->
+<div class="card team-member-card mt-4">
+  <div class="card-body">
+    <h2 class="card-title">High School Interns</h2>
+    <ul>
+      <li>Kevin Lam</li>
+      <li>
+        Catherine Rivas (collaboration with HYPOTHEkids, that provides summer research opportunities for underrepresented students from low-income communities)
+      </li>
+      <li>Tan Yi Tseung (HYPOTHEkids)</li>
+      <li>Nariah Morgan (HYPOTHEkids)</li>
+      <li>Agomoni Saha (HYPOTHEkids)</li>
+      <li>Stephanie Unuero (HYPOTHEkids)</li>
+      <li>Ariana Ali (HYPOTHEkids)</li>
+      <li>Zaira Ahammodh (HYPOTHEkids)</li>
+      <li>Adalia Vargas (HYPOTHEkids)</li>
+      <li>Mariam Sow (HYPOTHEkids)</li>
+    </ul>
+  </div>
+</div>
+
