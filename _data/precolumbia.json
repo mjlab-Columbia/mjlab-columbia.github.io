@@ -1,5 +1,501 @@
 [
     {
+        "DOI": "10.1101/2025.05.22.655611",
+        "abstract": "The noncanonical translation initiation factor eIF2A plays critical roles in diverse cellular processes, including the integrated stress response, neurodegeneration and tumorigenesis. However, the precise molecular mechanism underlying eIF2A{\\textquoteright}s function remains poorly understood. Here, we exploit a TurboID-based proximity labeling combined with mass spectrometry to systematically map the interactome of eIF2A during homeostasis and stress. Combining polysome gradients with TurboID, we zoom into the interactions of eIF2A with the 40S small ribosomal subunit and map the eIF2A binding site close to the mRNA entry channel. We identify a network of interactors that link eIF2A to ribosome-associated quality control, including its strong interaction with G3BP1-USP10 complexes as well as RPS2 and RPS3. In the absence of eIF2A, RPS2 and RPS3 ubiquitination is diminished specifically upon ribosome stalling. 40S-specific footprinting in eIF2A knockout cells shows minimal changes in 5{\\textquoteright}UTR occupancy, consistent with a limited role for eIF2A in translation initiation. Using dynamic SILAC mass spectrometry, we characterize the novel function of eIF2A in ribosome-associated quality control and show that eIF2A antagonizes USP10-dependent rescue of 40S ribosomes, resulting in altered turnover of 40S subunits upon cellular stress. Collectively, our study identifies a previously unknown link between eIF2A and ribosome-associated quality control, implies that eIF2A promotes translation fidelity by tuning 40S ribosome rescue under stress and warrants further investigations into the role of ribosome-associated quality control in tumorigenesis.Competing Interest StatementThe authors have declared no competing interest.",
+        "author": [
+            {
+                "family": "Yigit",
+                "given": "Merve"
+            },
+            {
+                "family": "Weber",
+                "given": "Ramona"
+            },
+            {
+                "family": "Ghoshdastider",
+                "given": "Umesh"
+            },
+            {
+                "family": "Das",
+                "given": "Anupam"
+            },
+            {
+                "family": "Nesanir",
+                "given": "Kivanc"
+            },
+            {
+                "family": "Valdivia-Francia",
+                "given": "Fabiola"
+            },
+            {
+                "family": "Hyams",
+                "given": "Katie"
+            },
+            {
+                "family": "Taborsky",
+                "given": "David"
+            },
+            {
+                "family": "Renz",
+                "given": "Peter F."
+            },
+            {
+                "family": "Ormiston",
+                "given": "Mark"
+            },
+            {
+                "family": "Dur{\\'e}",
+                "given": "Clara"
+            },
+            {
+                "family": "Yamahachi",
+                "given": "Homare"
+            },
+            {
+                "family": "Jovanovic",
+                "given": "Marko"
+            },
+            {
+                "family": "Sendoel",
+                "given": "Ataman"
+            }
+        ],
+        "container-title": "bioRxiv",
+        "id": "Yigit2025.05.22.655611",
+        "issue": "",
+        "issued": {
+            "date-parts": [
+                [
+                    "2025"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "Cold Spring Harbor Laboratory",
+        "title": "The alternative initiation factor eIF2A regulates 40S subunit turnover in ribosome-associated quality control",
+        "type": "article",
+        "volume": ""
+    },
+    {
+        "DOI": "10.1101/2025.04.18.649583",
+        "abstract": "Enhancer RNAs (eRNAs) are transcribed by RNA polymerase II during enhancer activation but are typically rapidly degraded in the nucleus. During states of reduced RNA surveillance, however, eRNAs and other similar {\\textquotedblleft}noncoding{\\textquotedblright} RNAs, including for example upstream antisense RNAs, are stabilized, and some are exported to the cytoplasm and can even be found on polysomes. Here, we report unexpectedly that \\~{}12\\% of human intergenic eRNAs contain long open reading frames (\\&gt;300 nts), many of which can be actively translated, as determined by ribosome profiling, and produce proteins that accumulate in cells, as shown by mass spectrometry (MS) data. Focusing on the largest of the encoded proteins, which we designate as eORFs, and which can be up to \\~{}45 KDa, we found remarkably that most are highly basic, with pIs \\&gt;11.5. This unusual chemistry reflects a striking overabundance of arginine residues, and occurs despite a relative paucity of lysines. Exogenous expression of the ten largest eORFs revealed that they accumulate stably in cells as full-length proteins, and most localize to the nucleus and associate with chromatin. Identification of interacting proteins by MS suggested possible roles for these proteins in several nuclear processes. The eORFs studied are well-conserved among primates, although they are largely absent from other mammals. Notably, several contain human-specific C-terminal extensions and display properties suggestive of de novo gene birth. In summary, we have discovered that a fraction of human eRNAs can function as mRNAs, revealing a new and unexpected role for these transcripts.",
+        "author": [
+            {
+                "family": "Vlasov",
+                "given": "Pavel A."
+            },
+            {
+                "family": "Ogami",
+                "given": "Koichi"
+            },
+            {
+                "family": "Valenzuela",
+                "given": "Elizabeth"
+            },
+            {
+                "family": "Kawaguchi",
+                "given": "Risa Karakida"
+            },
+            {
+                "family": "Jovanovic",
+                "given": "Marko"
+            },
+            {
+                "family": "Manley",
+                "given": "James L."
+            }
+        ],
+        "container-title": "bioRxiv",
+        "id": "Vlasov2025.04.18.649583",
+        "issue": "",
+        "issued": {
+            "date-parts": [
+                [
+                    "2025"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "Cold Spring Harbor Laboratory",
+        "title": "Multiple human enhancer RNAs contain long translated open reading frames",
+        "type": "article",
+        "volume": ""
+    },
+    {
+        "DOI": "10.1101/2025.02.26.640373",
+        "abstract": "Missense mutations in PTPN11, which encodes the protein tyrosine phosphatase SHP2, are common in several developmental disorders and cancers. While many mutations disrupt auto-inhibition and hyperactivate SHP2, several do not enhance catalytic activity. Both activating and non-activating mutations could potentially drive pathogenic signaling by altering SHP2 interactions or localization. We employed proximity-labeling proteomics to map the interaction networks of wild-type SHP2, ten clinically-relevant mutants, and SHP2 bound to an inhibitor that stabilizes its auto-inhibited state. Our analyses revealed mutation- and inhibitor-dependent alterations in the SHP2 interactome, with several mutations also changing localization. Some mutants had increased mitochondrial localization and impacted mitochondrial function. This study provides a resource for exploring SHP2 signaling and offers new insights into the molecular basis of SHP2-driven diseases. Furthermore, this work highlights the capacity for proximity-labeling proteomics to detect missense-mutation-dependent changes in protein interactions and localization.Competing Interest StatementThe authors have declared no competing interest.",
+        "author": [
+            {
+                "family": "van Vlimmeren",
+                "given": "Anne E."
+            },
+            {
+                "family": "Tang",
+                "given": "Lauren C."
+            },
+            {
+                "family": "Jiang",
+                "given": "Ziyuan"
+            },
+            {
+                "family": "Iyer",
+                "given": "Abhishek"
+            },
+            {
+                "family": "Voleti",
+                "given": "Rashmi"
+            },
+            {
+                "family": "Krismer",
+                "given": "Konstantin"
+            },
+            {
+                "family": "Gaublomme",
+                "given": "Jellert T."
+            },
+            {
+                "family": "Jovanovic",
+                "given": "Marko"
+            },
+            {
+                "family": "Shah",
+                "given": "Neel H."
+            }
+        ],
+        "container-title": "bioRxiv",
+        "id": "vanVlimmeren2025.02.26.640373",
+        "issue": "",
+        "issued": {
+            "date-parts": [
+                [
+                    "2025"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "Cold Spring Harbor Laboratory",
+        "title": "Proximity-labeling proteomics reveals remodeled interactomes and altered localization of pathogenic SHP2 variants",
+        "type": "article",
+        "volume": ""
+    },
+    {
+        "DOI": "10.1101/2024.10.21.619433",
+        "abstract": "Short abstract Ribosomes are essential RNA-protein complexes involved in protein synthesis and quality control. Traditional methods for ribosome isolation are labor intensive, expensive, and require substantial biological material. In contrast, our new method, RAPPL (RNA Affinity Purification using Poly-Lysine), offers a rapid, simple, and cost-effective alternative. This method enriches ribosomes and associated factors from various species and sample types, including cell lysates, whole cells, organs, and whole organisms, and is compatible with traditional isolation techniques. Here, we use RAPPL to facilitate the rapid isolation, functional screening, and structural analysis of ribosomes with associated factors. We demonstrate ribosome-associated resistance mechanisms from patient uropathogenic Escherichia coli samples and generate a 2.7{\\r A} cryoEM structure of ribosomes from Cryptococcus neoformans. By significantly reducing the amount of the starting biological material and the time required for isolation, the RAPPL approach improves the study of ribosomal function, interactions, and antibiotic resistance, providing a versatile platform for academic, clinical, and industrial research on ribosomes.Long abstract Ribosomes are macromolecular RNA-protein complexes that constitute the central machinery responsible for protein synthesis and quality control in the cell. Ribosomes also serve as a hub for multiple non-ribosomal proteins and RNAs that control protein synthesis. However, the purification of ribosomes and associated factors for functional and structural studies requires a large amount of starting biological material and a tedious workflow. Current methods are challenging as they combine ultracentrifugation, the use of sucrose cushions or gradients, expensive equipment, and multiple hours to days of work. Here, we present a rapid, facile, and cost-effective method to isolate ribosomes from in vivo or in vitro samples for functional and structural studies using single-step enrichment on magnetic beads {\\textendash} RAPPL (RNA Affinity Purification using Poly-Lysine). Using mass spectrometry and western blot analyses, we show that poly-lysine coated beads incubated with E. coli and HEK-293 cell lysates enrich specifically for ribosomes and ribosome-associated factors. We demonstrate the ability of RAPPL to isolate ribosomes and translation-associated factors from limited material quantities, as well as a wide variety of biological samples: cell lysates, cells, organs, and whole organisms. Using RAPPL, we characterized and visualized the different effects of various drugs and translation inhibitors on protein synthesis. Our method is compatible with traditional ribosome isolation. It can be used to purify specific complexes from fractions of sucrose gradients or in tandem affinity purifications for ribosome-associated factors. Ribosomes isolated using RAPPL are functionally active and can be used for rapid screening and in vitro characterization of ribosome antibiotic resistance. Lastly, we demonstrate the structural applications of RAPPL by purifying and solving the 2.7{\\r A} cryo-EM structure of ribosomes from the Cryptococcus neoformans, an encapsulated yeast causing cryptococcosis. Ribosomes and translational machinery purified with this method are suitable for subsequent functional or structural analyses and provide a solid foundation for researchers to carry out further applications {\\textendash} academic, clinical, or industrial {\\textendash} on ribosomes.Competing Interest StatementDr. Sergej Djuranovic, Dr. Slavica Pavlovic Djuranovic, and Dr. Jessey Erath hold a provisional patent on \"Method of use, procedures, and application of purified ribosomes and translation material using poly-lysine and other poly-basic polymers.\" Provisional Application Number $\\#$ US 63/694,196",
+        "author": [
+            {
+                "family": "Erath",
+                "given": "Jessey"
+            },
+            {
+                "family": "Kemper",
+                "given": "Danielle"
+            },
+            {
+                "family": "Mugo",
+                "given": "Elisha"
+            },
+            {
+                "family": "Jacoby",
+                "given": "Alex"
+            },
+            {
+                "family": "Valenzuela",
+                "given": "Elizabeth"
+            },
+            {
+                "family": "Jungers",
+                "given": "Courtney F."
+            },
+            {
+                "family": "Beatty",
+                "given": "Wandy L."
+            },
+            {
+                "family": "Hashem",
+                "given": "Yaser"
+            },
+            {
+                "family": "Jovanovic",
+                "given": "Marko"
+            },
+            {
+                "family": "Djuranovic",
+                "given": "Sergej"
+            },
+            {
+                "family": "Djuranovic",
+                "given": "Slavica Pavlovic"
+            }
+        ],
+        "container-title": "bioRxiv",
+        "id": "Erath2024.10.21.619433",
+        "issue": "",
+        "issued": {
+            "date-parts": [
+                [
+                    "2024"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "Cold Spring Harbor Laboratory",
+        "title": "A rapid, facile, and economical method for the isolation of ribosomes and translational machinery for structural and functional studies",
+        "type": "article",
+        "volume": ""
+    },
+    {
+        "DOI": "https://doi.org/10.1016/j.celrep.2025.115979",
+        "abstract": "Summary\nOlfactory sensory neurons (OSNs) use olfactory receptor (OR)-specific patterns of endoplasmic reticulum (ER) stress to transform OR sequence identity into axon guidance precision. However, during neuronal differentiation, OSNs transiently co-express random combinations of OR genes, which could generate unpredictable ER stress signatures that could lead to axon miswiring. Here, we show that post-transcriptional OR silencing by the transiently expressed and cytoplasmic RING and KH domain protein Mex3a, decouples OR transcription from OR protein-induced ER stress, until the onset of singular OR transcription. Consequently, conditional Mex3a deletion results in premature ER stress during the polygenic stage of OR transcription, which biases OR choice toward the OR alleles that are transcribed first and perturbs the specificity of OR-regulated axon targeting, disrupting the glomerular map of odor representation in the olfactory bulb. Our experiments reveal the critical role of post-transcriptional gene regulation in a fundamental cellular pathway that influences the assembly of neuronal circuits.",
+        "author": [
+            {
+                "family": "Rachel Duffi\u00e9",
+                "given": ""
+            },
+            {
+                "family": "Hani Shayya",
+                "given": ""
+            },
+            {
+                "family": "Mart\u00edn {Escamilla del Arenal}",
+                "given": ""
+            },
+            {
+                "family": "Miao Wang",
+                "given": ""
+            },
+            {
+                "family": "Jerome Kahiapo",
+                "given": ""
+            },
+            {
+                "family": "Aileen Ugurbil",
+                "given": ""
+            },
+            {
+                "family": "Abdurrahman Keskin",
+                "given": ""
+            },
+            {
+                "family": "Fiona Clowney",
+                "given": ""
+            },
+            {
+                "family": "Elizaveta V. Bashkirova",
+                "given": ""
+            },
+            {
+                "family": "Ariel D. Pourmorady",
+                "given": ""
+            },
+            {
+                "family": "Ira Schieren",
+                "given": ""
+            },
+            {
+                "family": "Humberto Ibarra Avila",
+                "given": ""
+            },
+            {
+                "family": "Luke E. Berchowitz",
+                "given": ""
+            },
+            {
+                "family": "Francisco M. Barriga",
+                "given": ""
+            },
+            {
+                "family": "Eduard Batlle",
+                "given": ""
+            },
+            {
+                "family": "Marko Jovanovic",
+                "given": ""
+            },
+            {
+                "family": "Stavros Lomvardas",
+                "given": ""
+            }
+        ],
+        "container-title": "Cell Reports",
+        "id": "DUFFIE2025115979",
+        "issue": "8",
+        "issued": {
+            "date-parts": [
+                [
+                    "2025"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "",
+        "title": "Mex3a-dependent post-transcriptional silencing ensures olfactory receptor diversity and axon guidance specificity",
+        "type": "article",
+        "volume": "44"
+    },
+    {
+        "DOI": "10.1038/s41586-025-09179-5",
+        "abstract": "Bacteria defend themselves from viral predation using diverse immune systems, many of which target foreign DNA for degradation1. Defence-associated reverse transcriptase (DRT) systems provide an intriguing counterpoint to this strategy by using DNA synthesis instead2,3. We and others recently showed that DRT2 systems use an RNA template to assemble a de novo gene that encodes the antiviral effector protein Neo4,5. It remains unclear whether similar mechanisms of defence are used by other related DRT families. Here, we show that DRT9 systems defend against phage using DNA homopolymer synthesis. Viral infection triggers polydeoxyadenylate (poly-dA) accumulation in the cell, driving abortive infection and population-level immunity. Cryo-electron microscopy structures reveal how a non-coding RNA serves as both a structural scaffold and reverse transcription template to direct hexameric complex assembly and poly-dA synthesis. Notably, biochemical and functional experiments identify tyrosine residues within the reverse transcriptase itself that probably prime DNA synthesis, leading to the formation of protein--DNA covalent adducts. Synthesis of poly-dA by DRT9 in vivo is regulated by the competing activities of phage-encoded triggers and host-encoded silencers. Collectively, our study identifies a nucleic-acid-driven defence system that expands the paradigm of bacterial immunity and broadens the known functions of reverse transcriptases.",
+        "author": [
+            {
+                "family": "Tang",
+                "given": "Stephen"
+            },
+            {
+                "family": "{\\v Z}edaveinyt{\\.e}",
+                "given": "Rimant{\\.e}"
+            },
+            {
+                "family": "Burman",
+                "given": "Nathaniel"
+            },
+            {
+                "family": "Pandey",
+                "given": "Shishir"
+            },
+            {
+                "family": "Ramirez",
+                "given": "Josephine L."
+            },
+            {
+                "family": "Kulber",
+                "given": "Louie M."
+            },
+            {
+                "family": "Wiegand",
+                "given": "Tanner"
+            },
+            {
+                "family": "Wilkinson",
+                "given": "Royce A."
+            },
+            {
+                "family": "Ma",
+                "given": "Yanzhe"
+            },
+            {
+                "family": "Zhang",
+                "given": "Dennis J."
+            },
+            {
+                "family": "Lampe",
+                "given": "George D."
+            },
+            {
+                "family": "Berisa",
+                "given": "Mirela"
+            },
+            {
+                "family": "Jovanovic",
+                "given": "Marko"
+            },
+            {
+                "family": "Wiedenheft",
+                "given": "Blake"
+            },
+            {
+                "family": "Sternberg",
+                "given": "Samuel H."
+            }
+        ],
+        "container-title": "Nature",
+        "id": "cite-key",
+        "issue": "8074",
+        "issued": {
+            "date-parts": [
+                [
+                    "2025"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "",
+        "title": "Protein-primed homopolymer synthesis by an antiviral reverse transcriptase",
+        "type": "article",
+        "volume": "643"
+    },
+    {
+        "DOI": "10.1007/978-1-0716-4386-0_8",
+        "abstract": "The study of protein homeostasis in vivo is crucial for our understanding of the functions of cells and organisms. However, complex organisms, such as mammals, are built from heterogeneous tissues and cell-types. These cell-types are often specialized and react in different ways to the same physiological or pathological stimulus. Therefore, a major challenge in proteomics is the identification of proteomes and their behavior in a cell-type-specific manner. In this protocol, we describe a technique to label, enrich, and identify proteins from specific cell types. This technique is based on the expression of a mutant methionyl-tRNA synthetase (MetRS*) for incorporation of a bioorthogonal analog of methionine (ANL) into proteins. ANL can be subsequently bound to an alkyne by click-chemistry, which is used as a bait for protein purification followed by mass spectrometry identification.",
+        "author": [
+            {
+                "family": "Alvarez-Pardo",
+                "given": "Rodrigo\nand Doron-MandelElla\nand Albert-Gasc{\\'o}Hector\nand SalinasCristina Olmedo\nand JovanovicMarko\nand Alvarez-CastelaoBeatriz"
+            }
+        ],
+        "container-title": "",
+        "id": "Alvarez-Pardo2025",
+        "issue": "",
+        "issued": {
+            "date-parts": [
+                [
+                    "2025"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "Springer US",
+        "title": "Cell-Type-Specific Protein Metabolic Labeling and Identification Using the Methionine Subrogate ANL in Cells Expressing a Mutant Methionyl-tRNA Synthetase",
+        "type": "inbook",
+        "volume": ""
+    },
+    {
+        "DOI": "https://doi.org/10.1016/j.celrep.2024.115059",
+        "abstract": "Summary\nDed1 and Dbp1 are paralogous conserved DEAD-box ATPases involved in translation initiation in yeast. In long-term starvation states, Dbp1 expression increases and Ded1 decreases, whereas in cycling mitotic cells, Dbp1 is absent. Inserting DBP1 in place of DED1 cannot replace Ded1 function in supporting mitotic translation, partly due to inefficient translation of the DBP1 coding region. Global translation measurements, activity of mRNA-tethered proteins, and growth assays show that\u2014even at matched protein levels\u2014Ded1 is better than Dbp1 at activating translation, especially for mRNAs with structured 5\u2032 leaders. Heat-stressed cells normally downregulate translation of structured housekeeping transcripts and halt growth, but neither occurs in Dbp1-expressing cells. This failure to halt growth in response to heat is not based on deficient stress granule formation or failure to reduce bulk translation. Rather, it depends on heat-triggered loss of Ded1 function mediated by an 11-amino-acid interval within its intrinsically disordered C terminus.",
+        "author": [
+            {
+                "family": "Naohiro Kuwayama",
+                "given": ""
+            },
+            {
+                "family": "Emily Nicole Powers",
+                "given": ""
+            },
+            {
+                "family": "Matej Siketanc",
+                "given": ""
+            },
+            {
+                "family": "Camila Ines Sousa",
+                "given": ""
+            },
+            {
+                "family": "Kendra Reynaud",
+                "given": ""
+            },
+            {
+                "family": "Marko Jovanovic",
+                "given": ""
+            },
+            {
+                "family": "Maria Hondele",
+                "given": ""
+            },
+            {
+                "family": "Nicholas Thomas Ingolia",
+                "given": ""
+            },
+            {
+                "family": "Gloria Ann Brar",
+                "given": ""
+            }
+        ],
+        "container-title": "Cell Reports",
+        "id": "KUWAYAMA2024115059",
+        "issue": "12",
+        "issued": {
+            "date-parts": [
+                [
+                    "2024"
+                ]
+            ]
+        },
+        "page": "",
+        "source": "",
+        "title": "Analyses of translation factors Dbp1 and Ded1 reveal the cellular response to heat stress to be separable from stress granule formation",
+        "type": "article",
+        "volume": "43"
+    },
+    {
         "DOI": "https://doi.org/10.1016/j.molcel.2024.08.010",
         "abstract": "Summary\nRNA interactome studies have revealed that hundreds of zinc-finger proteins (ZFPs) are candidate RNA-binding proteins (RBPs), yet their RNA substrates and functional significance remain largely uncharacterized. Here, we present a systematic multi-omics analysis of the DNA- and RNA-binding targets and regulatory roles of more than 100 ZFPs representing 37 zinc-finger families. We show that multiple ZFPs are previously unknown regulators of RNA splicing, alternative polyadenylation, stability, or translation. The examined ZFPs show widespread sequence-specific RNA binding and preferentially bind proximal to transcription start sites. Additionally, several ZFPs associate with their targets at both the DNA and RNA levels. We highlight ZNF277, a C2H2 ZFP that binds thousands of RNA targets and acts as a multi-functional RBP. We also show that ZNF473 is a DNA/RNA-associated protein that regulates the expression and splicing of cell cycle genes. Our results reveal diverse roles for ZFPs in transcriptional and post-transcriptional gene regulation.",
         "author": [
