@@ -1,10 +1,10 @@
 ---
 layout: member
 category: current
-subcategory: student
+subcategory: postdoc
 title: Lena Street
 image: lena-street-150-by-150.jpg
-role: PhD Student
+role: Post-doctoral Researcher
 permalink: "team/lena-street"
 social:
   orcid: https://orcid.org/0000-0002-5473-6713

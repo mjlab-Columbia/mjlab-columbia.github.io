@@ -1,11 +1,11 @@
 ---
 layout: member
-category: current
+category: alumni
 subcategory: technician
 title: Elizabeth Valenzuela
 image: elizabeth-valenzuela-150-by-150.jpg
 role: Technician
-permalink: "team/elizabeth-valenzuela"
+permalink: "alumni/elizabeth-valenzuela"
 social:
   website:
 education:
